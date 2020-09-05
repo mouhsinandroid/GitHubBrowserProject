@@ -1,4 +1,4 @@
-package com.mouhsinbr.android.githubbrowserproject.home
+package com.mouhsinbr.android.githubbrowserproject.appdeps
 
 import org.junit.Test
 

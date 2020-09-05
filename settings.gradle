@@ -1,2 +1,7 @@
+include ':appdeps'
+include ':di'
+include ':home'
+include ':repository'
+include ':githubapi'
 include ':app'
 rootProject.name = "GitHub Browser Project"
