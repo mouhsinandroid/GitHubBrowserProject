@@ -1,4 +1,4 @@
-package com.mouhsinbr.android.githubbrowserproject.application
+package com.mouhsinbourqaiba.android.githubbrowser.appcomponent
 
 import android.content.Context
 import com.mouhsinbr.android.githubbrowserproject.appdeps.ApplicationDeps
@@ -15,7 +15,7 @@ interface ApplicationComponent: ApplicationDeps {
 
     @Component.Factory
     interface Factory {
-        fun create(@BindsInstance context: Context):ApplicationComponent
+        fun create(@BindsInstance context: Context): ApplicationComponent
 
     }
 }
